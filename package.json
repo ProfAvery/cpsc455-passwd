@@ -1,0 +1,22 @@
+{
+  "name": "cpsc455-passwd",
+  "version": "1.0.0",
+  "description": "CPSC 455 - Spring 2022",
+  "scripts": {
+    "start": "npx nodemon api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfAvery/cpsc455-passwd.git"
+  },
+  "author": "Kenytt Avery",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
