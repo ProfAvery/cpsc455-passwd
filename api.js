@@ -2,14 +2,13 @@ const os = require('os')
 const crypto = require('crypto')
 
 const express = require('express')
-const bodyParser = require('body-parser')
 const sqlite3 = require('sqlite3').verbose()
 const bcrypt = require('bcrypt')
 
 const PORT = 8080
 
 const app = express()
-app.use(bodyParser.json())
+app.use(express.json())
 
 const db = new sqlite3.Database('./users.db')
 
